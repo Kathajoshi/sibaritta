@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.animate {
+    transition: transform 0.8s ease-in-out;
+  }
+  
+  .animate.slide-right {
+    transform: translateX(100%);
+  }
+  
+  .animate.slide-left {
+    transform: translateX(-100%);
+  }
